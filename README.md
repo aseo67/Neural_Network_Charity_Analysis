@@ -28,9 +28,10 @@ A nonprofit called Alphabet Soup is looking to create a binary classifier that c
 ### Compiling, Training, and Evaluating the Model
 
 - _How many neurons, layers, and activation functions did you select for your neural network model, and why?_
-  - To start, 2 layers were used in the neural network model, with 80 neurons in the first layer and 30 in the second layer. 
-  - "relu" activation functions were used in the hidden layers, given the substantial amount of features incorporated in this analysis
+  - To start, 2 layers were used in the neural network model, with 80 neurons in the first layer and 30 in the second layer, given that the number of input features equals ~43, and typically the number of neurons is ~2-3x the amount of input features in a basic network. This model, however, has 2 hidden layers, as this allows some neurons to train on activated input values instead of new training data. Thus, the model can better identify nonlinear characteristics of input data. 
+  - "relu" activation functions were used in the hidden layers, given the substantial amount of features incorporated in this analysis, which involve nonlinear data.
   - A "sigmoid" function was used in the output layer, given this a classification problem. Since we're looking for a binary yes or no (on whether the funding was successful), this sigmoid function would provide the necessary probability output to help classify this outcome.  
+![Screenshot](https://github.com/aseo67/Neural_Network_Charity_Analysis/blob/main/Screenshots/Screenshot_Model_build.png)
 - _Were you able to achieve the target model performance of 75% accuracy?_
   - No, the highest level of accuracy achieved was **73%**. 
 - _What steps did you take to try and increase model performance?_
