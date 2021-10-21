@@ -19,18 +19,18 @@ A nonprofit called Alphabet Soup is looking to create a binary classifier that c
 ### Data Preprocessing
 
 - _What variable(s) are considered the target(s) for your model?_
-  - asdf
+  - The target variable for this model is the **IS_SUCCESSFUL** variable, as this outlines the result/outcome of whether an application/organization who received funding was successful or not. 
 - _What variable(s) are considered to be the features for your model?_
-  - asdf
+  - The feature variables are: **APPLICATION_TYPE**, **AFFILIATION**, **CLASSIFICATION**, **USE_CASE**, **ORGANIZATION**, **STATUS**, **INCOME_AMT**, **SPECIAL_CONSIDERATIONS**, and **ASK_AMT**. These are features that play role in determining the outcome of the model. 
 - _What variable(s) are neither targets nor features, and should be removed from the input data?_
-  - asdf
+  - The variables of **EIN** and **NAME** have been removed, as they are neither targets nor features. These two columns are simply identification for each row of data/each application (basically, identification for each and every data point); thus, they do not play a role in determining the outcome of a successful funding or not. 
 
 ### Compiling, Training, and Evaluating the Model
 
 - _How many neurons, layers, and activation functions did you select for your neural network model, and why?_
   - asdf
-- _Were you able to achieve the target model performance?_
-  - asdf
+- _Were you able to achieve the target model performance of 75% accuracy?_
+  - No, the highest level of accuracy achieved was **73%**. 
 - _What steps did you take to try and increase model performance?_
   - asdf
 
