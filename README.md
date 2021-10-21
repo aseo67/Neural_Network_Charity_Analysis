@@ -28,7 +28,9 @@ A nonprofit called Alphabet Soup is looking to create a binary classifier that c
 ### Compiling, Training, and Evaluating the Model
 
 - _How many neurons, layers, and activation functions did you select for your neural network model, and why?_
-  - asdf
+  - To start, 2 layers were used in the neural network model, with 80 neurons in the first layer and 30 in the second layer. 
+  - "relu" activation functions were used in the hidden layers, given the substantial amount of features incorporated in this analysis
+  - A "sigmoid" function was used in the output layer, given this a classification problem. Since we're looking for a binary yes or no (on whether the funding was successful), this sigmoid function would provide the necessary probability output to help classify this outcome.  
 - _Were you able to achieve the target model performance of 75% accuracy?_
   - No, the highest level of accuracy achieved was **73%**. 
 - _What steps did you take to try and increase model performance?_
